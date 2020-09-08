@@ -30,6 +30,7 @@ class redditPost:
         self.ratio = submission.upvote_ratio
         self.comments = submission.num_comments
         self.date = submission.created_utc
+
 # Filtering certain posts. In this case, we filter out stickied posts,
 # since they are always on top.
 # If a post passes the filter, create an instance of our class and
