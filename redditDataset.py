@@ -27,9 +27,6 @@ class redditPost:
         self.comments = submission.num_comments
         self.date = submission.created_utc
 
-    def 
-
-
 # Filtering certain posts. In this case, we filter out stickied posts, since they are always
 # on top. If a post passes the filter, create an instance of our class and add it to our list
 for submission in hot_python:
