@@ -1,0 +1,20 @@
+What is PRAW?
+PRAW is a API Wrapper that allows for calls to the Reddit API using simple Python-friendly syntax.
+
+I use PyCharm. How do I use it?
+In the terminal type:
+
+pip install praw
+pip install --upgrade praw
+
+I use IDLE. How do I use it?
+Requires command prompt.
+1. Right-click on your Python folder, hold shift, right click, and click copy as path. In my case it was:  C:\Users\Admin\AppData\Local\Programs\Python.
+2. Open command prompt.
+3. Type: "cd" and then paste your path.
+4. Type: "curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py"
+5. Type: "python get-pip.py."
+   In Shell, type the following: 
+6. pip install praw
+7. pip install --upgrade praw
+
