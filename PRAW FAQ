@@ -14,7 +14,9 @@ Requires command prompt.
 3. Type: "cd" and then paste your path.
 4. Type: "curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py"
 5. Type: "python get-pip.py."
-   In Shell, type the following: 
-6. pip install praw
-7. pip install --upgrade praw
+6. In your python folder, copy as path the Scripts folder.
+7. In command prompt, type "cd" and paste the new path.
+8. Type "pip install praw"
+9. Type "pip install --upgrade praw"
 
+The main .py file should then be able to run.
