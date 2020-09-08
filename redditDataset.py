@@ -9,7 +9,8 @@ import praw
 reddit = praw.Reddit(client_id='zSSSh_xVCB2CQg',
                      client_secret='zDlIP1ENlrX08Xlqu_l4FQgfujc',
                      password='orangecoast22',
-                     user_agent='Python Test App', username='cs131praw')
+                     user_agent='Python Test App', 
+                     username='cs131praw')
 
 # Obtain an instance of the subreddit object from the API wrapper.
 # In this case, we obtain an instance of the /r/learnpython subreddit.
